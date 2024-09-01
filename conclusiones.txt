@@ -1,0 +1,26 @@
+onclusiones del Ejercicio de Automatización E2E en SauceDemo
+1. Cobertura del Happy Path:
+
+El ejercicio de automatización se centró en validar el flujo "happy path" de la aplicación SauceDemo. Esto significa que se cubrieron los escenarios en los que el usuario realiza acciones esperadas y no se encuentra con errores o situaciones excepcionales. Los casos probados incluyeron el inicio de sesión exitoso, la selección de productos, la adición de artículos al carrito, la verificación del carrito, y la finalización de la compra.
+
+2. Hallazgos Principales:
+
+Fluidez en el Flujo Principal: El flujo principal de la aplicación funcionó sin problemas bajo las condiciones esperadas. Todas las funcionalidades críticas relacionadas con la compra y el manejo de productos en el carrito se comportaron según lo esperado.
+Estabilidad del Sistema: Durante la ejecución del "happy path," la aplicación demostró ser estable, sin caídas ni comportamientos inesperados. Esto sugiere que el flujo estándar de usuario ha sido bien implementado y es robusto.
+Tiempo de Respuesta: Se observó que el tiempo de respuesta de la aplicación fue consistente y dentro de los parámetros aceptables para cada paso del flujo. Esto es crucial para la experiencia del usuario final.
+
+3. Limitaciones del Alcance:
+
+Cobertura Limitada: Aunque el "happy path" fue exitosamente automatizado, es importante reconocer que este ejercicio no cubre escenarios negativos, excepcionales, o de borde. Esto significa que posibles fallos en situaciones atípicas, como intentos de inicio de sesión con credenciales inválidas, problemas de red, o errores en la adición y eliminación de productos, no fueron detectados.
+Validación Superficial: Al centrarse solo en el flujo principal, el ejercicio no abordó la validación exhaustiva de los elementos de la interfaz de usuario (UI) en diversas resoluciones de pantalla o dispositivos. Tampoco se incluyó la verificación de la seguridad de las transacciones o la gestión de errores.
+
+4. Recomendaciones para Futuras Iteraciones:
+
+Ampliación de Casos de Prueba: Se recomienda expandir la suite de pruebas para incluir escenarios negativos y de borde, lo que ayudaría a identificar problemas potenciales en situaciones no ideales.
+Pruebas de UI y Responsividad: Incorporar pruebas automatizadas que verifiquen la responsividad de la UI en diferentes dispositivos y navegadores.
+Automatización de Validaciones de Seguridad: Considerar la inclusión de pruebas para validar la seguridad en el manejo de datos sensibles durante la transacción.
+
+5. Resultados del Reporte en Allure:
+
+Visualización Clara: Los reportes generados en Allure proporcionaron una visualización clara de los resultados de las pruebas, permitiendo identificar rápidamente los pasos ejecutados y el estado de cada uno.
+Trazabilidad: La integración de Allure permitió mantener una trazabilidad efectiva entre los casos de prueba y los resultados, facilitando la identificación de cualquier posible regresión en futuras ejecuciones.
